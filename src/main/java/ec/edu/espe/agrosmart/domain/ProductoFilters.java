@@ -1,4 +1,4 @@
-﻿package ec.edu.espe.agrosmart.domain;
+package ec.edu.espe.agrosmart.domain;
 
 import java.util.Locale;
 import java.util.function.Consumer;

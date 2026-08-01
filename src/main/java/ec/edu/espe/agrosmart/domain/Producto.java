@@ -1,4 +1,4 @@
-﻿package ec.edu.espe.agrosmart.domain;
+package ec.edu.espe.agrosmart.domain;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
