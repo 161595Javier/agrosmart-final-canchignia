@@ -17,10 +17,10 @@
 
 ## Datos
 
-- **Nombre:**
-- **Cédula:**
-- **NN (dos últimos dígitos):**
-- **Categoría asignada (según el último dígito):**
+- **Nombre: ALEX CANCHIGNIA**
+- **Cédula: 1753484623**
+- **NN : 23**
+- **Categoría asignada : Café**
 
 ---
 
@@ -28,23 +28,23 @@
 
 **1.1** ¿Qué archivo activa el perfil `prod` y qué línea exacta lo hace?
 
->
+>En mi proyecto el perfil prod se activa en src/main/resources/application.properties. La línea exacta es spring.profiles.active=prod.
 
 **1.2** Pega la línea del log de arranque donde se ve tu puerto y el perfil activo.
 
 ```
-
+2026-07-31T19:58:37.996-05:00 INFO 77004 --- [agrosmart] [main] e.e.espe.agrosmart.AgrosmartApplication : The following 1 profile is active: "prod" 2026-07-31T19:58:43.518-05:00 INFO 77004 --- [agrosmart] [main] o.s.b.web.embedded.netty.NettyWebServer : Netty started on port 8123 (http)
 ```
 
 **1.3** ¿Qué habría pasado si dejabas `ddl-auto=create-drop` en lugar de `update`?
 Responde pensando en tus datos sembrados.
 
->
+>Si hubiera usado ddl-auto=create-drop, Hibernate habría creado el esquema al iniciar y lo habría eliminado al cerrar la aplicación. Eso habría borrado los cinco productos sembrados y obligaría a crearlos nuevamente en cada ejecución. En application-prod.properties usé spring.jpa.hibernate.ddl-auto=update para conservar la tabla y sus registros entre reinicios.
 
 **1.4** ¿Levantaste PostgreSQL con `compose.yaml` (Opción A) o con una instalación local
 (Opción B)? ¿Qué ventaja tiene la que elegiste?
 
->
+>Levanté PostgreSQL con compose.yaml, correspondiente a la Opción A. Durante la configuración detecté que el puerto 5432 del equipo estaba siendo utilizado por otra instancia de PostgreSQL, por lo que publiqué el contenedor como 55432:5432 y configuré AgroSmart para conectarse a 127.0.0.1:55432. La ventaja de Docker Compose es que la base agrosmart_db, el usuario y la contraseña quedan definidos de forma reproducible dentro del proyecto y no dependen de una instalación manual de PostgreSQL.
 
 ---
 
