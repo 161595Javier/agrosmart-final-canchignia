@@ -6,11 +6,11 @@
 >
 > Completa **todos** los campos. El código del examen ya viene escrito: no lo cambies.
 
-- **Nombre completo:**
-- **Cédula:**
-- **NRC:**
+- **Nombre completo:** ALEX CANCHIGNIA
+- **Cédula:** 1753484623
+- **NRC:** 30405
 - **Código del examen:** `AGSK-2026`
-- **Fecha y hora de inicio:**      <!-- formato: 2026-XX-XX HH:MM -->
+- **Fecha y hora de inicio:** 2026-07-30 20:00
 
 ---
 
@@ -69,4 +69,4 @@ Declaro que este repositorio es de mi autoría individual, que sustentaré oralm
 decisión de diseño que contiene, y que el historial de commits refleja fielmente el
 proceso de desarrollo que realicé.
 
-**Firma (nombre completo):**
+**Firma:** ALEX CANCHIGNIA
