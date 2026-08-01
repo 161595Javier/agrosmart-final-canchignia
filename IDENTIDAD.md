@@ -21,11 +21,11 @@ se busca en una tabla.
 
 | # | Parámetro | Cómo se obtiene | Mi valor |
 |:---:|-----------|-----------------|----------|
-| — | `NN` | los 2 últimos dígitos de mi cédula | |
-| 1 | Nombre de la tabla | `tbl_productos_base_` + `NN` | |
-| 2 | Puerto | `81` + `NN` | |
-| 3 | Categoría | según el **último dígito** (tabla de abajo) | |
-| — | Audiencia para el prompt de IA | según la categoría | |
+| — | `NN` | los 2 últimos dígitos de mi cédula | `23` |
+| 1 | Nombre de la tabla | `tbl_productos_base_` + `NN` | `tbl_productos_base_23` |
+| 2 | Puerto | `81` + `NN` | `8123` |
+| 3 | Categoría | según el **último dígito** (tabla de abajo) | Café |
+| — | Audiencia para el prompt de IA | según la categoría | cafeterías de especialidad |
 
 **Tabla de categorías:**
 
