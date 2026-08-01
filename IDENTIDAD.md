@@ -51,15 +51,10 @@ se busca en una tabla.
 
 ## Defensa oral
 
-> 🎥 **Completa esto en la Fase 8.** Este es el **único** lugar donde se declara el video:
-> a Moodle solo se sube la URL del repositorio. Verifica el enlace en una ventana de
-> incógnito antes de cerrar la entrega — si no abre sin tu sesión iniciada, equivale a no
-> haberlo entregado y C8 se califica en nivel 1.
-
-- **Enlace al video (5 min, cámara + pantalla):**
-- **Plataforma:**                  <!-- Drive institucional / OneDrive / YouTube no listado -->
-- **Acceso verificado en incógnito:**   ☐ Sí
-- **Duración real:**
+- **Enlace al video: https://drive.google.com/file/d/1jR4EysUpL-Fj_RMQLGbXlEEmo6cb0-u9/view?usp=sharing**
+- **Plataforma: Drive institucional**                  <!-- Drive institucional / OneDrive / YouTube no listado -->
+- **Acceso verificado en incógnito:**    Sí
+- **Duración real: 4:36 **
 
 ---
 
